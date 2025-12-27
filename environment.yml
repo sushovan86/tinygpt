@@ -9,5 +9,5 @@ dependencies:
   - numpy
   - pip
   - pip:
-      # install torch as pip dependency to enure platform specific version is installed
+      # install torch as pip dependency to ensure platform specific version is installed
       - torch
