@@ -4,7 +4,10 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-    - python
-    - pip
-    - pytorch
-    - jupyter
+  - python
+  - jupyter
+  - numpy
+  - pip
+  - pip:
+      # install torch as pip dependency to enure platform specific version is installed
+      - torch
